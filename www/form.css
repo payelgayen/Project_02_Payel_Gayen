@@ -208,8 +208,25 @@ input .button {
   text-align: center;
 }
 
+button {
+  margin-top: 10px;
+  border: none;
+  padding: 10px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  background: #c4cace;
+  border-radius: 20px;
+}
+
+button:hover {
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
 .error {
-    color: red;
+  color: red;
 }
 
 .modal h2 {
